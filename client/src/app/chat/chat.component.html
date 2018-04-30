@@ -1,0 +1,9 @@
+<div class="chat">
+    <div class="message-list">
+        <message id="{{'message' + i}}" *ngFor="let message of messages; let i = index"
+        [message]="message"></message>
+    </div>
+    <div class="message-input">
+        <input type="text" [(ngModel)]="myMessage" (keyup.enter)="send()" placeholder="Type your message..." autofocus>
+    </div>
+</div>

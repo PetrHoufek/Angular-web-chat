@@ -1,0 +1,7 @@
+<div class="app">
+  <div class="title-holder">
+    <h2 class="title">Angular web-chat</h2>
+  </div>
+  <chat *ngIf="userService.getUser()" class="chat"></chat>
+  <login *ngIf="!userService.getUser()"></login>
+</div>

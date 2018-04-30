@@ -1,0 +1,13 @@
+.login{
+    display: flex;
+    justify-content: center;
+
+    .outer-container{
+        border-radius: 10px;
+        background-color: rgba(0, 128, 255, 0.1);
+        padding: 14px;
+    }
+    .title{
+        padding-bottom: 10px;
+    }
+}

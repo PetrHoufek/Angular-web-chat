@@ -1,0 +1,12 @@
+<div class="outer-container" [class.other-user]="isOtherUser()">
+    <div class="middle-container" [ngStyle]="styles">
+        <div class="inner-container">
+            <div class="user-name">
+                {{message.user.name}}
+            </div>
+            <div class="content">
+                {{message.message}}
+            </div>
+        </div>
+    </div>
+</div>

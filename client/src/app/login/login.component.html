@@ -1,0 +1,10 @@
+<div class="login">
+    <div class="outer-container">
+        <div class="title">Welcome, please enter your name!</div>
+        <div>
+            <div>Username: 
+                <input #inputRef type="text" [(ngModel)]="username" (keyup.enter)="login()" placeholder="Type your username...">
+            </div>
+        </div>
+    </div>
+</div>

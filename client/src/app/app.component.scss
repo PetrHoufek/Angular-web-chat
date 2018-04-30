@@ -1,0 +1,27 @@
+.app{
+    height: 100%;
+}
+
+.title-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin: 0;
+}
+
+.title{
+    width: 31.9%;
+    justify-content: center;
+    display: flex;
+    background-color: rgba(217, 217, 217, 0.2);
+    border-radius: 10px;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.chat{
+    display: flex;
+    justify-content: center;
+    height: 85%;
+}
